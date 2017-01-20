@@ -1,4 +1,4 @@
-# JarTest
+# JarTest，讲解生成jar包，和生成arr包，引用arr包
 将一个moudle整体打成jar,其实也就是一般的jar包，没有支援文件的
 
 
@@ -6,7 +6,7 @@
 
 在Android Studio中打包一个moudle为jar包
 
-#步骤
+#，生成jar包步骤
 
 
 1，新建一个工程就不用将了吧，在新建的工程中新建一个Moudle，名字就叫做MyLibrary吧，注意要选择library这个才可以哦，鉴定一个Moudle是application还是library，主要看
@@ -43,3 +43,25 @@ exportJar.dependsOn(deleteOldJar, build)
 4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，
 
 接下来就是静静的等待了，然后你去你的ｂｕｉｌｄ／ｌｉｂｓ下面就可以看到那个ｔｅｓｔ．ｊａｒ包了
+怎么用jar包就不用我说了吧
+
+
+#生成arr包，并引用 ，步骤
+
+1，生成arr，新建一个library，在Bulid》ReBulidProject，然后就可以在build》outputs》arr下面看到你生成的arr包了
+
+
+2，引用，在你的Moudle下面的bulid.gradle中添加
+repositories {
+    
+    flatDir { dirs 'libs' }
+}
+
+
+在再dependencies下添加
+
+
+compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
+
+
+接下来就是Rebuild Project就可以了，然后可以在app/build/intermediates/exploded-aar看到你引用的arr包，搞定！！！

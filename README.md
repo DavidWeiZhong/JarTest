@@ -100,3 +100,18 @@ http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录
 
 
 #既然到了这一步，那就说一下怎么在github上面上传自己的apk，然后别人扫码下载吧！
+
+
+
+步骤吧我觉得都差不多，先在工程下面建一个APK文件夹，把你的apk复制进去，然后push到github中，然后在github中打开这个apk
+
+
+
+
+复制url，记住要在复制的url后面加上参数？raw=true,我也不知道为什么，你照着做就好了
+
+
+如下是我的apk
+
+
+![点我下载](https://github.com/DavidWeiZhong/JarTest/blob/master/APK/BoomMenu%20V2.0.6.apk)

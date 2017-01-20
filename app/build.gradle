@@ -19,9 +19,15 @@ android {
     }
 }
 
+repositories {
+
+    flatDir { dirs 'libs' }
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile files('libs/test.jar')
+    compile(name:'jarlibrary-debug', ext:'aar')//写上你的arr包的全名
 }

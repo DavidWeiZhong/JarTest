@@ -92,3 +92,9 @@ compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
 http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录制好视频然后上传上去（可以通过屏幕录制专家录制视屏啊，是在不行，下载一个手机版的也可以的）
 哈哈我上传的gif
 
+
+
+
+![rua](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/ezgif.com-gif-maker.gif)
+
+

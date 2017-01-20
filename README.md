@@ -24,6 +24,7 @@ apply plugin: 'com.android.application'//为application ,相应的library就为l
 3，打开MyLIbrary下的bulid.gradle在最后面加入以下代码，不要问我为什么，这是官网写的
 
 task deleteOldJar(type: Delete) {
+
     delete 'build/outputs/test.jar'//这行真的是不知道是什么意思
 }
 

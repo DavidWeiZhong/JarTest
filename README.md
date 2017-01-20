@@ -1,7 +1,7 @@
 # JarTest，讲解生成jar包，和生成arr包，引用arr包
 将一个moudle整体打成jar,其实也就是一般的jar包，没有支援文件的
 
-![Circle](https://github.com/Nightonke/BoomMenu/blob/master/Pictures/show_circle.gif)
+
 
 
 好吧，先来讲一下步骤吧，jar（Jar Archive,jar文档）中只能打包进一些java代码，
@@ -85,3 +85,10 @@ compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
 
 
 3，接下来在github上面编辑你的readme就可以了格式为![image](url),搞定，我想上传gif也差不多吧
+![一个标识名即可]()
+
+那么问题来了怎么制作gif图片呢！
+
+http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录制好视频然后上传上去（可以通过屏幕录制专家录制视屏啊，是在不行，下载一个手机版的也可以的）
+哈哈我上传的gif
+

@@ -71,3 +71,15 @@ compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
 
 
 接下来就是Rebuild Project就可以了，然后可以在app/build/intermediates/exploded-aar看到你引用的arr包，搞定！！！
+
+
+#ps,怎样在redeme中插入图片呢，
+
+
+1，首先在你的项目中新建一个文件夹，Picture把你要上传的图片放上去，然后同步到github
+
+
+2，在github中打开你上传的图片，然后复制下url
+
+
+3，接下来在github上面编辑你的readme就可以了格式为![image](url),搞定，我想上传gif也差不多吧

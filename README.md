@@ -1,10 +1,10 @@
 # JarTest
-将一个moudle整体打成jar，这样就不存在什么资源文件不能打成jar包的情况了
+将一个moudle整体打成jar,其实也就是一般的jar包，没有支援文件的
 
 
+好吧，先来讲一下步骤吧，jar（Jar Archive,jar文档）中只能打包进一些java代码，
 
-好吧，先来讲一下步骤吧，jar（Jar Archive,jar文档）我们有的时候想要把什么资源文件，还有一些什么assert文件，xml文件也一并打包进jar中
-但是一般的步骤是不可以的，只能打包进一些java代码，在Android Studio中打包一个moudle为jar包就显得尤为重要
+在Android Studio中打包一个moudle为jar包
 
 #步骤
 

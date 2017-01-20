@@ -29,6 +29,7 @@ task deleteOldJar(type: Delete) {
 }
 
 task exportJar(type: Copy) {
+
     from('build/intermediates/bundles/release/')
     into('build/libs/')//生成jar包的位置，可以改
     include('classes.jar')

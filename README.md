@@ -114,4 +114,4 @@ http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录
 如下是我的apk
 
 
-![点我下载](https://github.com/DavidWeiZhong/JarTest/blob/master/APK/BoomMenu%20V2.0.6.apk)
+[点我下载](https://github.com/DavidWeiZhong/JarTest/blob/master/APK/BoomMenu%20V2.0.6.apk?raw=true)

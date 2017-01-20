@@ -1,6 +1,8 @@
 # JarTest，讲解生成jar包，和生成arr包，引用arr包
 将一个moudle整体打成jar,其实也就是一般的jar包，没有支援文件的
 
+![Circle](https://github.com/Nightonke/BoomMenu/blob/master/Pictures/show_circle.gif?raw=true)
+
 
 好吧，先来讲一下步骤吧，jar（Jar Archive,jar文档）中只能打包进一些java代码，
 

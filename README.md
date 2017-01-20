@@ -40,7 +40,13 @@ exportJar.dependsOn(deleteOldJar, build)
 
 
 
-4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，
+4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，
+
+
+gradle图标在这里！！[image](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/p1.png)
+
+
+然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，
 
 接下来就是静静的等待了，然后你去你的ｂｕｉｌｄ／ｌｉｂｓ下面就可以看到那个ｔｅｓｔ．ｊａｒ包了
 怎么用jar包就不用我说了吧

@@ -8,7 +8,7 @@
 
 在Android Studio中打包一个moudle为jar包
 
-#，生成jar包步骤
+#生成jar包步骤
 
 
 1，新建一个工程就不用将了吧，在新建的工程中新建一个Moudle，名字就叫做MyLibrary吧，注意要选择library这个才可以哦，鉴定一个Moudle是application还是library，主要看
@@ -84,7 +84,7 @@ compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
 2，在github中打开你上传的图片，然后复制下url
 
 
-3，接下来在github上面编辑你的readme就可以了格式为![image](url),搞定，我想上传gif也差不多吧
+3，接下来在github上面编辑你的readme就可以了格式为![](),搞定，我想上传gif也差不多吧
 ![一个标识名即可]()
 
 那么问题来了怎么制作gif图片呢！
@@ -98,3 +98,5 @@ http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录
 ![rua](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/ezgif.com-gif-maker.gif)
 
 
+
+#既然到了这一步，那就说一下怎么在github上面上传自己的apk，然后别人扫码下载吧！

@@ -43,7 +43,7 @@ exportJar.dependsOn(deleteOldJar, build)
 4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，
 
 
-gradle图标在这里！！[image](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/p1.png)
+gradle图标在这里![image](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/p1.png)
 
 
 然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，

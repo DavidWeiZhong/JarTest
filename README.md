@@ -2,6 +2,8 @@
 将一个moudle整体打成jar,其实也就是一般的jar包，没有支援文件的
 
 
+
+
 好吧，先来讲一下步骤吧，jar（Jar Archive,jar文档）中只能打包进一些java代码，
 
 在Android Studio中打包一个moudle为jar包
@@ -40,7 +42,13 @@ exportJar.dependsOn(deleteOldJar, build)
 
 
 
-4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，
+4，然后就是在你的Android Studio中的最右面找到Ｇｒａｄｌｅ，
+
+
+gradle图标在这里![image](https://github.com/DavidWeiZhong/JarTest/blob/master/Picture/p1.png)
+
+
+然后依次Ｔａｓｋｓ＞ｏｔｈｅｒ＞ｅｘｐｏｒｔＪａｒ，
 
 接下来就是静静的等待了，然后你去你的ｂｕｉｌｄ／ｌｉｂｓ下面就可以看到那个ｔｅｓｔ．ｊａｒ包了
 怎么用jar包就不用我说了吧
@@ -65,3 +73,22 @@ compile(name:'jarlibrary-debug.aar', ext:'aar')//写上你的arr包的全名
 
 
 接下来就是Rebuild Project就可以了，然后可以在app/build/intermediates/exploded-aar看到你引用的arr包，搞定！！！
+
+
+#ps,怎样在redeme中插入图片呢，
+
+
+1，首先在你的项目中新建一个文件夹，Picture把你要上传的图片放上去，然后同步到github
+
+
+2，在github中打开你上传的图片，然后复制下url
+
+
+3，接下来在github上面编辑你的readme就可以了格式为![image](url),搞定，我想上传gif也差不多吧
+![一个标识名即可]()
+
+那么问题来了怎么制作gif图片呢！
+
+http://ezgif.com/，这个是专门做gif的在线网站，前提是你要先录制好视频然后上传上去（可以通过屏幕录制专家录制视屏啊，是在不行，下载一个手机版的也可以的）
+哈哈我上传的gif
+
